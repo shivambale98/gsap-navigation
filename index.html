@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Gsap Navigation</title>
+  </head>
+  <body>
+    <div class="menu-btn" onclick="toggle()">
+      <img src="./assets/reorder-two-outline.svg" alt="" />
+    </div>
+    <div class="content">
+      <span>Why</span>
+      <h1>Choose</h1>
+      <h1>This</h1>
+      <h1>channel</h1>
+    </div>
+    <div class="img-divs">
+      <div
+        class="div1"
+        style="
+          background: url(./assets/pic1.jpg);
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      ></div>
+      <div
+        class="div2"
+        style="
+          background: url(./assets/pic2.jpg);
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      ></div>
+      <div
+        class="div3"
+        style="
+          background: url(./assets/pic3.jpg);
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      ></div>
+    </div>
+
+    <!-- this goes inside the menu  -->
+    <div class="menu">
+      <div class="menu-btn active" onclick="togglerev()">
+        <img src="./assets/close-outline.svg" alt="" />
+      </div>
+      <div class="showcase">
+        <div
+          class="hover1"
+          style="
+            background: url(./assets/hover1.jpg);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          class="hover2"
+          style="
+            background: url(./assets/hover2.jpg);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          class="hover3"
+          style="
+            background: url(./assets/hover3.jpg);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          class="hover4"
+          style="
+            background: url(./assets/hover4.jpg);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        ></div>
+      </div>
+      <div class="page-links">
+        <ul class="pg-ul">
+          <li class="li1 li"><a href="" class="a1">Home</a></li>
+          <li class="li2 li"><a href="" class="a2">Collection</a></li>
+          <li class="li3 li"><a href="" class="a3">Jounal</a></li>
+          <li class="li4 li"><a href="" class="a4">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <ul class="ul">
+          <li>Facebook .</li>
+          <li>Twitter .</li>
+          <li>Snapchat .</li>
+          <li>LinkedIn .</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
